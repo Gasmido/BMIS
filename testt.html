@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<input type="text" name="text" id="w1" onkeyup="fasdf();">
+	<input type="text" name="sdfs" id="q2">
+	<input type="text" name="tasdfext" id="3">
+	<script type="text/javascript">
+		const input = document.getElementById('w1');
+input.addEventListener('keyup', () => {
+  input.value = input.value.replace(/  +/g, ' ');
+});
+
+const input2 = document.getElementById('q2');
+input2.addEventListener('keyup', () => {
+  input2.value = input2.value.replace(/  +/g, ' ');
+});
+	</script>
+</body>
+</html>
